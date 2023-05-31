@@ -3,9 +3,8 @@ include 'config.php';
 error_reporting(0);
 session_start();
  
-if (isset($_SESSION['username'])) {
-    header("Location: berhasil_login.php");
-}
+if (isset($_SESSION['username'])) ;
+
  
 if (isset($_POST['submit'])) {
     $email = $_POST['email'];
